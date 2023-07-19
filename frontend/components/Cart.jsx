@@ -56,6 +56,14 @@ export default function Cart() {
     router.push("/checkout");
   }
 
+    // Check if the cart has any items with quantity greater than 0
+  const hasItemsInCart = cart.items && cart.items.some(item => item.quantity > 0);
+
+  // Hide the cart if there are no items in it
+  if (!hasItemsInCart) {
+    setShowCart(false);
+  }
+
   return (
     <section className="fixed right-20 top-[242px]">
       <div className="relative">
@@ -79,8 +87,8 @@ export default function Cart() {
             ></path>
           </svg>
         </button>
-        {showCart && (
-          <div className="rounded-3xl co bg-gray-800">
+        {showCart && hasItemsInCart && (
+          <div className="rounded-3xl co bg-gray-800 max-h-[calc(100vh-260px)] overflow-y-auto">
             <div className="max-w-lg pt-6 pb-8 px-8 mx-auto">
               <div className="flex mb-10 items-center justify-between">
                 <h6 className="font-bold text-2xl text-white mb-0">
@@ -106,7 +114,7 @@ export default function Cart() {
                 </div>
                 <button
                   onClick={() => (user ? cartRedirect() : loginRedirect())}
-                  className="inline-block w-full px-6 py-3 text-center font-bold text-white bg-red-500 hover:bg-red-600 transition duration-200 rounded-full"
+                  className="inline-block w-full px-6 py-3 text-center font-bold text-white bg-green-500 hover:bg-green-600 transition duration-200 rounded-full"
                 >
                   {user ? "Continue To Pay" : "Login to Order"}
                 </button>
