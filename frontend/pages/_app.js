@@ -1,8 +1,8 @@
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import { AppProvider } from "@/context/AppContext";
 import "@/styles/globals.css";
-import Layout from "@/components/layout";
-import Footer from "@/components/footer"
+import Layout from "@/components/Layout";
+import Footer from "@/components/Footer"
 
 const API_URL = process.env.STRAPI_URL || "http://localhost:1337";
 
