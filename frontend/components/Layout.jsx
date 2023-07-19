@@ -26,7 +26,7 @@ function Navigation() {
               className="block text-2xl max-w-max text-white font-medium"
               href="/"
             >
-              Emilia's Kitchen Group
+              Emilia\'s Kitchen Group
             </Link>
             
           </div>
