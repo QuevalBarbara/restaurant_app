@@ -1,8 +1,8 @@
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import { useInitialRender } from "@/utils/useInitialRender";
-import CheckoutForm from "@/components/checkoutForm";
-import CheckoutCart from "@/components/checkoutCart";
+import CheckoutForm from "@/components/CheckoutForm";
+import CheckoutCart from "@/components/CheckoutCart";
 
 export default function Checkout() {
   //change test key
