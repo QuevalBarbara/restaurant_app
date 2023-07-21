@@ -1,3 +1,7 @@
 module.exports = ({ env }) => ({
-  url: env("RENDER_EXTERNAL_URL"),
+  proxy: true,
+  url: env('https://emilia-kitchen.vercel.app/'), // Sets the public URL of the application.
+  app: {
+    keys: env.array('APP_KEYS')
+  },
 });
