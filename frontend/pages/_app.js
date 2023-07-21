@@ -4,7 +4,7 @@ import "@/styles/globals.css";
 import Layout from "@/components/Layout";
 import Footer from "@/components/Footer"
 
-const API_URL = process.env.STRAPI_URL || "https://strapi-9s4s.onrender.com";
+const API_URL = process.env.STRAPI_URL || "https://strapi-b4ct.onrender.com";
 
 export const client = new ApolloClient({
   uri: `${API_URL}/graphql`,
