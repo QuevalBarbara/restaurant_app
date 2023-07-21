@@ -32,7 +32,9 @@ function RestaurantCard({ data }) {
           className="w-full rounded-2xl"
           height={300}
           width={300}
-          src={data.attributes.image?.data[0]?.attributes?.url || "https://strapi-b4ct.onrender.com/"}
+          src={`${"https://strapi-b4ct.onrender.com/"}${
+            data.attributes.image.data[0].attributes.url
+          }`}
           alt=""
         />
         <div className="p-8">
