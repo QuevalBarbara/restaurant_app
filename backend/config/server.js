@@ -4,7 +4,11 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
-  webhooks: {
-    populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
+  socket: '/tmp/nginx.socket', // only use if absolutely required
+  emitErrors: false,
+  url: env('PUBLIC_URL', 'https://emilia-kitchen.vercel.app/'),
+  proxy: env.bool('IS_PROXIED', true),
+  cron: {
+    enabled: env.bool('CRON_ENABLED', false),
   },
 });
