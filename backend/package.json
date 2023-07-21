@@ -14,7 +14,7 @@
     "@strapi/plugin-i18n": "4.11.5",
     "@strapi/plugin-users-permissions": "4.11.5",
     "@strapi/plugin-upload": "^4.11.5",
-    "@strapi/strapi": "4.11.5",
+    "@strapi/strapi": "4.11.3",
     "passport-google-oauth2": "^0.2.0",
     "pg": "^8.8.0",
     "pg-connection-string": "^2.6.1",
