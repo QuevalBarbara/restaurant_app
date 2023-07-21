@@ -13,6 +13,7 @@
     "@strapi/plugin-graphql": "^4.11.5",
     "@strapi/plugin-i18n": "4.11.5",
     "@strapi/plugin-users-permissions": "4.11.5",
+    "@strapi/plugin-upload": "^4.11.5",
     "@strapi/strapi": "4.11.5",
     "passport-google-oauth2": "^0.2.0",
     "pg": "^8.8.0",
