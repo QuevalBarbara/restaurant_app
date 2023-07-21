@@ -35,7 +35,7 @@ function RestaurantCard({ data }) {
           src={`${process.env.STRAPI_URL || "https://strapi-b4ct.onrender.com"}${
             data.attributes.image.data[0].attributes.url
           }`}
-          alt=""
+          alt="Picture of the restaurant."
         />
         <div className="p-8">
           <h3 className="mb-3 font-heading text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
