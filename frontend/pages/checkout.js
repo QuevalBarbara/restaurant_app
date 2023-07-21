@@ -4,10 +4,10 @@ import { useInitialRender } from "@/utils/useInitialRender";
 import CheckoutForm from "@/components/CheckoutForm";
 import CheckoutCart from "@/components/CheckoutCart";
 
-export default function Checkout() {
-  //change test key
+//change test key
   const stripePromise = loadStripe("pk_test_51NPPh7EgccRdQ2dZroHUqTJvP4QbJhi6GUw8UFCY7zI6CpAoZVMN3ZdzO3TWgqg2C0jqFDHJNfXoZeLnDTGqk61n00hL11jyIm");
 
+export default function Checkout() {
   const initialRender = useInitialRender();
   if (!initialRender) return null;
 
