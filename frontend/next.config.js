@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    unoptimized: true,
     domains: ["strapi-b4ct.onrender.com"],
     // remotePatterns: [
       // {
