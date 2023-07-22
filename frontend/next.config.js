@@ -6,7 +6,6 @@ const nextConfig = {
         {
           protocol: "https",
           hostname: "strapi-b4ct.onrender.com",
-          port: "1337",
           pathname: "/uploads/**",
         },
       ],
