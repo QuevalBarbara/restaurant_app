@@ -3,11 +3,11 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     unoptimized: true,
-    domains: ["strapi-b4ct.onrender.com"],
+    domains: ["strapi-ksrw.onrender.com"],
     // remotePatterns: [
       // {
       //   protocol: "https",
-      //   hostname: "strapi-b4ct.onrender.com",
+      //   hostname: "strapi-ksrw.onrender.com",
       // },
     // ],
   },
