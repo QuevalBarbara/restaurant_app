@@ -5,8 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "strapi-b4ct.onrender.com",
-        pathname: "/uploads/**",
+        hostname: "**.onrender.com",
       },
     ],
   },
