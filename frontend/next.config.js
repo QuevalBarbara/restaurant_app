@@ -4,14 +4,14 @@ const nextConfig = {
     images: {
       remotePatterns: [
         {
-          protocol: "http",
-          hostname: "https://strapi-b4ct.onrender.com/",
+          protocol: "https",
+          hostname: "strapi-b4ct.onrender.com/",
           port: "1337",
           pathname: "/uploads/**",
         },
         {
-            protocol: "http",
-            hostname: "https://strapi-b4ct.onrender.com/",
+            protocol: "https",
+            hostname: "strapi-b4ct.onrender.com/",
             port: "1337",
             pathname: "/uploads/**",
           },
