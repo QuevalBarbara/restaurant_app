@@ -1,3 +1,5 @@
+<image src="https://github.com/QuevalBarbara/restaurant_app/blob/main/juliette%20restaurant%20page.png">
+  
 # FRONT-END
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
