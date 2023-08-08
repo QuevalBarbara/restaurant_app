@@ -4,7 +4,7 @@ import { useInitialRender } from "@/utils/useInitialRender";
 import CheckoutForm from "@/components/CheckoutForm";
 import CheckoutCart from "@/components/CheckoutCart";
 
-const stripePromise = loadStripe("pk_test_51NPPh7EgccRdQ2dZroHUqTJvP4QbJhi6GUw8UFCY7zI6CpAoZVMN3ZdzO3TWgqg2C0jqFDHJNfXoZeLnDTGqk61n00hL11jyIm");
+const stripePromise = loadStripe("STRIPE_publicKey");
 
 export default function Checkout() {
   const initialRender = useInitialRender();
