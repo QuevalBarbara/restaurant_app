@@ -1,4 +1,33 @@
+# Capstone Project: Restaurant Application 
+
+The Restaurant Application is a full-stack web application developed as part of the MIT MERN Full Stack coding certification. It aims to provide users with a seamless experience for browsing and ordering food items from a restaurant's menu.
+
 <image src="https://github.com/QuevalBarbara/restaurant_app/blob/main/juliette%20restaurant%20page.png">
+<image src="https://github.com/QuevalBarbara/restaurant_app/blob/main/dish%20page.png">
+<image src="https://github.com/QuevalBarbara/restaurant_app/blob/main/juliette%20sign%20up%20form.png">
+<image src="https://github.com/QuevalBarbara/restaurant_app/blob/main/checkout%20form.png">
+
+## The application is built using the following technologies:
+
+-  Front-end architecture: Next.js
+-  Authentication: JWT (JSON Web Tokens)
+-  Database: PostgreSQL
+-  API: Strapi (Headless CMS)
+-  Deployment: Vercel (Front-end), Render (Back-end)
+
+## Features
+
+-  User authentication: Users can create an account, log in, and log out. Authentication is implemented using JWT for secure and persistent user sessions.
+-  Menu browsing: Users can view the restaurant menu, including food item details such as name, description, and price.
+-  Cart management: Users can add items to their cart, modify quantities, and remove items.
+-  Order placement: Users can place an order and receive a confirmation with order details.
+
+
+
+### Prerequisites
+- Node.js (v14 or higher)
+- PostgreSQL database
+- Strapi CMS (installed and configured)
   
 # FRONT-END
 
@@ -39,7 +68,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 # BACK-END
-## 🚀 Getting started with Strapi
+## Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
